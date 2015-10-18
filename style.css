@@ -1,0 +1,56 @@
+body {
+  color: #def;
+  background: #040810;
+}
+
+.ui {
+  color: #def;
+  background: #234;
+  border: 0;
+  border-bottom: solid 5px #123;
+}
+
+.centered {
+  text-align: center;
+}
+
+.square {
+  display: inline-block;
+  margin: 0.2em;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3em;
+  font-size: 1.5em;
+}
+
+.ui.blue {
+  color: white;
+  background: #33b;
+  border-bottom: solid 5px #229;
+}
+
+.ui.green {
+  color: white;
+  background: #3b3;
+  border-bottom: solid 5px #292;
+}
+
+.ui.yellow {
+  color: black;
+  background: #dd3;
+  border-bottom: solid 5px #aa2;
+}
+
+.ui.red {
+  color: white;
+  background: #b33;
+  border-bottom: solid 5px #922;
+}
+
+.ui.purple {
+  color: white;
+  background: #635;
+  border-bottom: solid 5px #524;
+}

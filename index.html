@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matrix games</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="centered">
+    <label>
+      game type:
+      <select class="ui" id="game_type">
+        <option value="game_15">15</option>
+        <option value="game_2048">2048</option>
+      </select>
+    </label>
+    <button class="ui" id="reset">Reset</button>
+    <div id="container">Loading...</div>
+    <div id="description"></div>
+  </div>
+  <script src="Matrix.js"></script>
+  <script src="15.js"></script>
+  <script src="2048.js"></script>
+  <script src="interface.js"></script>
+</body>
+</html>
