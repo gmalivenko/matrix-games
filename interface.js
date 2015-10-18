@@ -33,6 +33,20 @@
   // Bind event handlers
   document.onkeyup = function(event) {
     var dx = 0, dy = 0;
+    switch (event.key) {
+      case 'ArrowLeft':
+        dx--;
+        break;
+      case 'ArrowRight':
+        dx++;
+        break;
+      case 'ArrowUp':
+        dy--;
+        break;
+      case 'ArrowDown':
+        dy++;
+        break;
+    }
     switch (event.keyIdentifier) {
       case 'Left':
         dx--;
@@ -46,9 +60,8 @@
       case 'Down':
         dy++;
         break;
-      default:
-        return;
     }
+    console.log(event.key, dx, dy);
     game.move(dx, dy);
     updateContainer();
   };
